@@ -10,6 +10,7 @@
 /coverage
 
 # next.js
+/.swc/
 /.next/
 /out/
 
@@ -34,3 +35,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# snapshots
+/src/app/__tests__/__snapshots__
